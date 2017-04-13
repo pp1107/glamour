@@ -1,0 +1,415 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.site-dev{
+		right: 0;
+	}
+	header .logo {
+		margin: 10px 0 0;
+	}
+	#bx-pager{
+		overflow: auto;
+	}
+	.block-delivery .payment p{
+		font-size: 26px;
+	}
+	.block-delivery .payment p img {
+		margin: 20px 0px 0 0;
+		max-width: 100%;
+		display: inline-block;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.block-delivery {
+		margin: 12px 0 0 0px;
+	}
+	.bx-wrapper{
+		max-width: 276px !important;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.product-description .col-sm-5 {
+		padding-right: 15px;
+	}
+	.top-nav nav ul li a{
+		padding: 0 5px;
+		font-size: 12px;
+	}
+	.block4 {
+		background: url(../img/block4.jpg) 70% no-repeat;
+		background-size: cover;
+	}
+	header .logo img{
+		left: 0;
+	}
+	.block5-item p {
+		max-height: 150px;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+	.block5-item a{
+		font-size: 17px;
+		line-height: 22px;
+	}
+	.block5-item{
+		height: auto;
+	}
+	.block1-last-item {
+		margin: 0px 0 0;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.top-nav nav ul .active > a{
+		background-image: url(../img/next-active.svg);
+	}
+	.top-nav nav ul .active > .sub-menu-level-2 .has{
+		background-image: url(../img/next-active.svg);
+	}
+
+	.top-nav nav ul li:hover, .top-nav nav ul li .sub-menu-level-3 li a:hover{
+		background-color: transparent;
+		color: #FFF;
+	}
+	.top-nav nav ul li .sub-menu-level-2 li a{
+		line-height: 24px;
+	}
+	.top-nav nav ul li .sub-menu-level-3 li a{
+		line-height: 24px;
+	}
+	.top-nav nav ul li .sub-menu-level-2 .has {
+		background-position: 95% 3px;
+	}
+	.top-nav nav ul li .sub-menu-level-3{
+		position: relative;
+		left: auto;
+		bottom: 0;
+		background-color: transparent;
+	}
+	.top-nav nav ul li .sub-menu-level-2{
+		position: relative;
+	}
+	.has-main > a{
+		background-image: url(../img/next.svg);
+		background-position: 95% center;
+		background-repeat: no-repeat;
+		background-size: 16px;
+	}
+	.top-nav nav ul{
+		text-align: left !important;
+		padding-left: 15px;
+	}
+	.block1 {
+		margin: 33px 0 20px 0;
+		padding: 43px 0 45px;
+	}
+	.look-btn{
+		margin: 22px 0 10px 30px;
+	}
+	.product-description p .add-cart{
+		margin: 34px auto 37px;
+	}
+	.product-description-text{
+		text-align: center;
+		left: 0;
+	}
+	.block-subscribe {
+		margin: 30px 0 0;
+	}
+	.block-questions{
+		margin: 35px auto 0;
+	}
+	.block5{
+		margin: 25px 0 0;
+	}
+	.block5 h2{
+		margin-bottom: 0;
+	}
+	.block4, .block5{
+		padding: 30px 0;
+	}
+	.block3-item{
+		margin-bottom: 20px;
+	}
+	h2{
+		line-height: 46px;
+	}
+	.address{
+		right: 0;
+	}
+	.footer-nav {
+		margin-left: 0px;
+		text-align: right;
+		margin-bottom: 20px;
+	}
+	.footer-logo {
+		margin: 60px 0 20px;
+	}
+	.footer-logo img{
+		margin: 0 auto;
+	}
+	.block1-last-item {
+		margin: 0px 0 0;
+	}
+	.auth{
+		margin: 0;
+	}
+	.block2-item a {
+		font-size: 16px;
+		width: 100px;
+		height: 26px;
+		line-height: 23px;
+		left: 15px;
+	}
+	.block2-item span{
+		left: 15px;
+		font-size: 20px;
+		bottom: 45%;
+	}
+	.block2-item{
+		margin: 0 auto;
+	}
+	header .logo {
+		margin: 35px 0 20px;
+	}
+	.top-nav nav ul{
+		display: none;
+	}
+	.mobile-btn{
+		width: 32px;
+		height: 32px;
+		display: inline-block;
+		background-image: url(../img/menu.png);
+		background-repeat: no-repeat;
+		position: relative;
+		top: 8px;
+		background-position: center;
+		background-size: contain;
+	}
+	.block4:after {
+		background: linear-gradient(to right, #000 0%, #000 100%, #000 100%, transparent 50%, transparent 100%);
+	}
+	.block-questions-left span{
+		font-size: 20px;
+	}
+	.block-questions-in{
+		display: block;
+		text-align: center;
+	}
+	.block-questions-in>span{
+		left: 0;
+		right: 0;
+		top: 0;
+	}
+	.block-questions-callback{
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+	.block3-item img{
+		height: 200px;
+	}
+	.top-nav nav{
+		position: relative;
+	}
+	.top-nav nav ul{
+		display: none;
+		position: absolute;
+		background-color: #000;
+		left: 0;
+		top: 100%;
+		width: 100%;
+		text-align: center;
+		z-index: 999999;
+	}
+	.top-nav nav ul li {
+		display: block;
+		margin: 0 0px 10px 0;
+	}
+	.sub-menu-level-2, .sub-menu-level-3{
+		display: none;
+	}
+	.header-active-menu nav{
+		position: fixed;
+		top: 0;
+		padding: 0 15px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		z-index: 9999999999;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	h4{
+		font-size: 20px;
+	}
+	.block-delivery .payment p img {
+		margin: 20px auto 0;
+		max-width: 50%;
+		display: block;
+	}
+	.block-delivery .payment p {
+		font-size: 20px;
+	}
+	.block-delivery ul li{
+		font-size: 11px;
+	}
+	.block3-item strong{
+		line-height: 26px;
+	}
+	.map {
+		height: 250px;
+		overflow: hidden;
+	}
+	.site-dev{
+		margin: 0;
+		text-align: right;
+	}
+	.block5-item{
+		text-align: center !important;
+	}
+	.block4 h2{
+		text-align: center;
+	}
+	.block2 .col-xs-6{
+		width: 100%;
+	}
+	.block3-item-price-new{
+		font-size: 28px;
+		white-space: nowrap;
+	}
+	.block4 .col-md-6 {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.block-questions p {
+		font-size: 16px;
+		line-height: 18px;
+	}
+	address a {
+		margin: 16px 0 5px;
+		font-size: 18px;
+	}
+	address p{
+		font-size: 18px;
+	}
+	.block-subscribe-input-group{
+		display: block;
+		text-align: center;
+	}
+	.block-subscribe-input-group input{
+		display: block;
+		margin-bottom: 15px;
+	}
+	.block-questions-left {
+		left: -48px;
+		top: 11px;
+		right: 0;
+		margin: 0 auto;
+	}
+	.address a{
+		font-size: 16px;
+	}
+	h3{
+		font-size: 25px;
+	}
+	.block4{
+		margin: 10px 0 0;
+	}
+	h2 {
+		line-height: 34px;
+		font-size: 32px;
+	}
+	.block1{
+		margin-top: 0;
+	}
+	.block-main {
+		background-size: 1770px;
+	}
+	.auth a{
+		font-size: 14px;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.top-nav nav ul li:hover .sub-menu-level-2{
+		display: block;
+	}
+	.sub-menu-level-2:hover .sub-menu-level-3{
+		display: block;
+	}
+	.header-active{
+		position: fixed;
+		left: 0;
+		right: 0;
+		width: 100%;
+		top: 0;
+		background-color: #FFF;
+		z-index: 999999999999999999999;
+	}
+	.hidden-md{
+		display: none;
+	}
+	.header-active .logo img {
+	    left: 0px;
+	    margin: 25px auto 0;
+	    float: left;
+	    max-width: 200px;
+	}
+	.header-active .auth{
+		margin: 5px 0 0;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.header-active .logo img {
+	    left: 0px;
+	    margin: 15px auto 0;
+	    float: left;
+	    max-width: 200px;
+	}
+	.header-active .auth{
+		margin: 5px 0 0;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.header-active .logo img {
+	    left: 0px;
+	    margin: 5px auto 0;
+	    float: left;
+	    max-width: 200px;
+	}
+	.header-active .auth{
+		margin: 0px 0 0;
+	}
+}
